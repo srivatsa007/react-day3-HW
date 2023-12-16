@@ -36,3 +36,110 @@
     transform: rotate(360deg);
   }
 }
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/* header style */
+.header{
+  width: 100vw;
+
+}
+.logo-section #big-headeing{
+  color: #991F48;
+  font-size: x-large;
+  margin: 1rem;
+
+}
+.logo-section #sub-heading{
+font-weight: 100;
+font-size: small;
+margin: 0 0 1rem 1rem;
+}
+nav {
+  width: 100vw;
+}
+nav button{
+  width: calc(100vw/5);
+  border: none;
+  color: white;
+  background-color: #A5A19E;
+  font-weight: 800;
+  font-size: small;
+  padding: 1rem 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+nav button a{
+  color: white;
+  text-decoration: none;
+}
+nav button:visited, nav button:hover {
+  background-color: #991F48;
+}
+
+
+/* header ends */
+/* landing */
+#landing-cta{
+  background-color: #991f48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 2rem;
+    color: white;
+    margin: 1rem 0;
+}
+#landing-para{
+  padding: 1rem 1.5rem;
+}
+#landing-para p{
+  padding: 1rem 0;
+}
+#landing-para p:first-child{
+  color: #991f48;
+}
+#landing-contact{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+#landing-contact h2{
+  color: #991f48;
+}
+#landing-contact p{
+  text-align: center;
+}
+#landing-contact{
+padding: 1.5rem 0;
+}
+.btn-container button{
+  padding:1rem 2rem;
+  margin: 1rem ;
+    background-color: transparent;
+    font-weight: bolder;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-container button:hover{
+  border-color: #991f48;
+    background-color: white;
+    color: #991f48;
+}
+#landing-container #landing-img img{
+  width: 100vw;
+  height: 75vh;
+  background-color: #61dafb;
+  /* height: auto; */
+  /* border: red 1px solid; */
+  object-fit: cover;
+ object-position:  10% center; 
+}
+/* landing end */
+/* footer start */
+footer p{
+  font-size: x-small;
+}
+/* footer end */
